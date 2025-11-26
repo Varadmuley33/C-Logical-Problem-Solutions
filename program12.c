@@ -1,40 +1,93 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program12.c
+//  Description :   Accepts an integer from user and checks whether
+//                  the number is even or odd.
+//  Author :        Varad Nitin Muley
+//  Date :          16/10/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Algorithm
+//
+/////////////////////////////////////////////////////////////////
 /*
     START
-        Accept number and store as no
-        Divide no by 2 
-        If the remainder is 0
-            then display as Even
-        otherwise 
-            display as Odd
+        Accept number and store as No
+        Divide No by 2
+        If remainder is 0
+            Display as Even
+        Else
+            Display as Odd
     STOP
-
 */
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : CheckEvenOdd
+//  Description :   Checks whether the given integer is even or odd.
+//  Input :         Integer
+//  Output :        void
+//  Author :        Varad Nitin Muley
+//  Date :          16/10/2025
+//
+/////////////////////////////////////////////////////////////////
+
 void CheckEvenOdd(int iNo)
 {
-    int iRem = 0 ;
+    int iRem = 0;
 
-    iRem = iNo % 2 ;
+    iRem = iNo % 2;
 
     if(iRem == 0)
     {
-        printf("Number is even \n");
+        printf("Number is even\n");
     }
-    else 
+    else
     {
-        printf("Number is odd");
+        printf("Number is odd\n");
     }
-
 }
-int main ()
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
     int iValue = 0;
+
     printf("Enter your number : ");
-    scanf("%d",&iValue);
+    scanf("%d", &iValue);
 
     CheckEvenOdd(iValue);
-    
+
     return 0;
-}
+}   // End of main
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 10
+//  Output : Number is even
+//
+//  Input : 7
+//  Output : Number is odd
+//
+//  Input : 0
+//  Output : Number is even
+//
+/////////////////////////////////////////////////////////////////
