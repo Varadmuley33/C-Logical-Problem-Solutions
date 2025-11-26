@@ -1,17 +1,16 @@
-/*
-    Algorithm
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program11.c
+//  Description :   Performs addition of two floating point numbers
+//                  after converting negative inputs into positive.
+//  Author :        Varad Nitin Muley
+//  Date :          16/10/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-    START
-        Accept first number as no1
-        Accept second number as no2
-        If the input is negative then convert it into positive
-        Perform Addition of no1 & no2
-        Display the addition on screen
-    STOP
-*/
 
 /////////////////////////////////////////////////////////////////
-// 
+//
 //  Required Header files
 //
 /////////////////////////////////////////////////////////////////
@@ -21,11 +20,12 @@
 /////////////////////////////////////////////////////////////////
 //
 //  Function Name : AdditionTwoNumbers
-//  Description :   It is used to perform addition         
-//  Input :         Float, Float 
+//  Description :   Returns addition after normalizing negative
+//                  values into positive form.
+//  Input :         Float, Float
 //  Output :        Float
 //  Author :        Varad Nitin Muley
-//  Date :          09/10/2025
+//  Date :          16/10/2025
 //
 /////////////////////////////////////////////////////////////////
 
@@ -36,12 +36,12 @@ float AdditionTwoNumbers(
 {
     float fSum = 0.0f;                              // To store the result
 
-    if(fNo1 < 0.0f)                                 // Updator
+    if(fNo1 < 0.0f)
     {
         fNo1 = -fNo1;
     }
 
-    if(fNo2 < 0.0f)                                 // Updator
+    if(fNo2 < 0.0f)
     {
         fNo2 = -fNo2;
     }
@@ -60,7 +60,7 @@ float AdditionTwoNumbers(
 int main()
 {
     float fValue1 = 0.0f, fValue2 = 0.0f;           // To accept user input
-    float fRet = 0.0f;                              // To store the result
+    float fRet = 0.0f;                               // To store the result
 
     printf("Enter first number : \n");
     scanf("%f",&fValue1);
@@ -77,12 +77,15 @@ int main()
 
 /////////////////////////////////////////////////////////////////
 //
-//  Testcases succesfully handaled by the application
+//  Testcases successfully handled by the application
 //
-//  Input1 : 10.5       Input2 : 3.2        Output : 13.7
-//  Input1 : -10.5      Input2 : 3.2        Output : 13.7
-//  Input1 : 10.5       Input2 : -3.2       Output : 13.7
-//  Input1 : -10.5      Input2 : -3.2       Output : 13.7
-//  Input1 : 10.5       Input2 : 0.0        Output : 10.5
+//  Input : -10.5    3.2
+//  Output : Addition is : 13.700000
+//
+//  Input : 6.5    3.5
+//  Output : Addition is : 10.000000
+//
+//  Input : -4.0    -6.0
+//  Output : Addition is : 10.000000
 //
 /////////////////////////////////////////////////////////////////
