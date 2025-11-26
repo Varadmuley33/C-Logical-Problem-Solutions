@@ -1,3 +1,19 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program10.c
+//  Description :   Application which accepts two floating point numbers,
+//                  converts negative values into positive and performs
+//                  their addition.
+//  Author :        Varad Nitin Muley
+//  Date :          16/10/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Problem Solving Steps
+//
+/////////////////////////////////////////////////////////////////
 /*
     Step 1 : Understand the problem statement
     Step 2 : Write the algorithm
@@ -6,20 +22,23 @@
     Step 5 : Test the program
 */
 
+/////////////////////////////////////////////////////////////////
+//
+//  Algorithm
+//
+/////////////////////////////////////////////////////////////////
 /*
-    Algorithm
-
     START
-        Accept first number as no1
-        Accept second number as no2
-        If the input is negative then convert it into positive
-        Perform Addition of no1 & no2
-        Display the addition on screen
+        Accept first number as No1
+        Accept second number as No2
+        If input is negative convert into positive
+        Perform addition of No1 and No2
+        Display result on screen
     STOP
 */
 
 /////////////////////////////////////////////////////////////////
-// 
+//
 //  Required Header files
 //
 /////////////////////////////////////////////////////////////////
@@ -29,11 +48,12 @@
 /////////////////////////////////////////////////////////////////
 //
 //  Function Name : AdditionTwoNumbers
-//  Description :   It is used to perform addition         
-//  Input :         Float, Float 
+//  Description :   It is used to convert negative values into
+//                  positive and return their addition.
+//  Input :         Float, Float
 //  Output :        Float
 //  Author :        Varad Nitin Muley
-//  Date :          09/10/2025
+//  Date :          16/10/2025
 //
 /////////////////////////////////////////////////////////////////
 
@@ -41,7 +61,6 @@ float AdditionTwoNumbers(float fNo1, float fNo2)
 {
     float fSum = 0.0f;
 
-    // Updator
     if(fNo1 < 0.0f)
     {
         fNo1 = -fNo1;
@@ -52,8 +71,8 @@ float AdditionTwoNumbers(float fNo1, float fNo2)
         fNo2 = -fNo2;
     }
 
-    fSum = fNo1 + fNo2;    // Business Logic
-    
+    fSum = fNo1 + fNo2;
+
     return fSum;
 }
 
@@ -65,7 +84,8 @@ float AdditionTwoNumbers(float fNo1, float fNo2)
 
 int main()
 {
-    float fValue1 = 0.0f, fValue2 = 0.0f, fRet = 0.0f;
+    float fValue1 = 0.0f, fValue2 = 0.0f;
+    float fRet = 0.0f;
 
     printf("Enter first number : \n");
     scanf("%f",&fValue1);
@@ -82,12 +102,15 @@ int main()
 
 /////////////////////////////////////////////////////////////////
 //
-//  Testcases succesfully handaled by the application
+//  Testcases successfully handled by the application
 //
-//  Input1 : 10.5       Input2 : 3.2        Output : 13.7
-//  Input1 : -10.5      Input2 : 3.2        Output : 13.7
-//  Input1 : 10.5       Input2 : -3.2       Output : 13.7
-//  Input1 : -10.5      Input2 : -3.2       Output : 13.7
-//  Input1 : 10.5       Input2 : 0.0        Output : 10.5
+//  Input : -10.5    3.2
+//  Output : Addition is : 13.700000
+//
+//  Input : 5.5    4.5
+//  Output : Addition is : 10.000000
+//
+//  Input : -7.0    -3.0
+//  Output : Addition is : 10.000000
 //
 /////////////////////////////////////////////////////////////////
