@@ -1,0 +1,69 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program37.c
+//  Description :   Displays numbers from 1 to user-entered frequency
+//                  using a for loop inside a function in C.
+//  Author :        Varad Nitin Muley
+//  Date :          17/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description :   Prints numbers from 1 to iNo using a loop
+//  Input :         Integer
+//  Output :        void
+//
+/////////////////////////////////////////////////////////////////
+
+void Display(int iNo)
+{
+    int iCnt = 0;                          // Loop counter
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)     // Loop till input number
+    {
+        printf("%d\t", iCnt);              // Print current number
+    }
+}
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter the Frequency : \n");
+    scanf("%d",&iValue);
+
+    Display(iValue);                        // Function call
+
+    return 0;
+}   // End of main
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 5
+//  Output : 1   2   3   4   5
+//
+//  Input : 7
+//  Output : 1   2   3   4   5   6   7
+//
+//  Input : 1
+//  Output : 1
+//
+/////////////////////////////////////////////////////
