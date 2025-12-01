@@ -1,39 +1,74 @@
-//Display Factors of 6
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program45.c
+//  Description :   Displays the factors of number 6 using multiple
+//                  conditional checks inside a function.
+//  Author :        Varad Nitin Muley
+//  Date :          18/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : DisplayFactors
+//  Description :   Prints all factors of 6 using conditional checks
+//
+/////////////////////////////////////////////////////////////////
 
 void DisplayFactors()
 {
-   if((6 % 1) == 0)
-   {
+    // Checking divisibility for each number manually
+    if((6 % 1) == 0)
+    {
         printf("1\n");
-   }
-   if((6 % 2) == 0)
-   {
+    }
+    if((6 % 2) == 0)
+    {
         printf("2\n");
-   }
-   if((6 % 3) == 0)
-   {
+    }
+    if((6 % 3) == 0)
+    {
         printf("3\n");
-   }
-   if((6 % 4) == 0)
-   {
+    }
+    if((6 % 4) == 0)
+    {
         printf("4\n");
-   }
-   if((6 % 5) == 0)
-   {
+    }
+    if((6 % 5) == 0)
+    {
         printf("5\n");
-   }
+    }
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
 int main()
 {
-    int iValue = 0 ;
-
-    //printf ("Enter  Number : ");
-    //scanf("%d",&iValue);
-
-    DisplayFactors();
+    DisplayFactors();                      // Function call
 
     return 0;
+}   // End of main
 
-}
+/////////////////////////////////////////////////////////////////
+//
+//  Testcase successfully handled by the application
+//
+//  Output :
+//  1
+//  2
+//  3
+//  (Since 4 and 5 are not factors of 6, they are not printed)
+//
+/////////////////////////////////////////////////////////////////
