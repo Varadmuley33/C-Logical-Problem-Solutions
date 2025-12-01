@@ -1,31 +1,79 @@
-// Input - 10
-// Output - 2 4 6 8 10
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program42.c
+//  Description :   Displays even numbers from 1 to the user-entered limit
+//                  using conditional checking inside a loop.
+//  Author :        Varad Nitin Muley
+//  Date :          17/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description :   Prints even numbers from 1 to iNo using % operator
+//  Input :         Integer
+//  Output :        void
+//
+/////////////////////////////////////////////////////////////////
+
 void Display(int iNo)
 {
-    int iCnt = 0;
+    int iCnt = 0;                           // Loop counter
 
-    for (iCnt = 1 ; iCnt <= iNo ; iCnt++)  // Change is here short hand vaparla he tevhach vapraycha jevha = chya pudha maga same asel tevha refer code 40 for reference 
+    // This loop checks each number and prints only if it is even.
+    // Use this method when increment is not constant (refer Program40 for shorthand logic).
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
-        if((iCnt % 2) == 0)
+        if((iCnt % 2) == 0)                 // Condition to check even number
         {
-            printf("%d\t",iCnt);
+            printf("%d\t", iCnt);           // Print even number
         }
     }
 }
-//Time Complexity : O(N)
 
+// Time Complexity : O(N)
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
 int main()
 {
-    int iValue = 0 ;
-    printf("Enter the Frequency : \n");
-    scanf("%d",&iValue);
+    int iValue = 0;
 
-    Display(iValue);
+    printf("Enter the Frequency : \n");
+    scanf("%d", &iValue);
+
+    Display(iValue);                        // Function call
 
     return 0;
+}   // End of main
 
-}
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 10
+//  Output : 2   4   6   8   10
+//
+//  Input : 7
+//  Output : 2   4   6
+//
+//  Input : 1
+//  Output : (no output)
+//
+//  Input : 2
+//  Output : 2
+//
+/////////////////////////////////////////////////////////////////
