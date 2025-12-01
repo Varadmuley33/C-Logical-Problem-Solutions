@@ -1,38 +1,86 @@
-//Display Factors of 6
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program50.c
+//  Description :   Displays all factors of a user-entered number using an
+//                  optimized loop that runs only till iNo/2.
+//  Author :        Varad Nitin Muley
+//  Date :          18/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : DisplayFactors
+//  Description :   Optimized method to print factors by iterating
+//                  only up to (iNo / 2). Handles negative input.
+//  Input :         Integer
+//  Output :        void
+//
+/////////////////////////////////////////////////////////////////
 
 void DisplayFactors(int iNo)
 {
-     int iCnt = 0 ;
+    int iCnt = 0;
 
+    // Updator
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
 
-     if(iNo < 0 )
-     {
-          iNo = -iNo;
-     }
-
-     for(iCnt = 1 ; iCnt <= (iNo / 2) ; iCnt ++)
-     {
-          if((iNo % iCnt) == 0)
-          {
-               printf("%d\n",iCnt);
-          }
-     }
+    // Display all factors from 1 to iNo/2
+    for(iCnt = 1; iCnt <= (iNo / 2); iCnt++)
+    {
+        if((iNo % iCnt) == 0)               // Factor condition
+        {
+            printf("%d\n", iCnt);
+        }
+    }
 }
-// Time Comlexity :  O(N/2)
+
+/////////////////////////////////////////////////////////////////
+//
+//  Time Complexity : O(N/2)
+//
+/////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
 int main()
 {
-    int iValue = 0 ;
+    int iValue = 0;
 
-    printf ("Enter  Number : ");
-    scanf("%d",&iValue);
+    printf("Enter Number : ");
+    scanf("%d", &iValue);
 
     DisplayFactors(iValue);
 
     return 0;
+}   // End of main
 
-}
-
-
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 12
+//  Output : 1  2  3  4  6
+//
+//  Input : 10
+//  Output : 1  2  5
+//
+//  Input : -15
+//  Output : 1  3  5
+//
+/////////////////////////////////////////////////////////////////
