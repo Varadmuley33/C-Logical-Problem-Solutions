@@ -1,52 +1,99 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program59.c
+//  Description :   Prime number checking by initializing the flag
+//                  inside the for loop initialiser section.
+//  Author :        Varad Nitin Muley
+//  Date :          19/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdbool.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : checkPrime
+//  Description :   Returns true if number is prime, otherwise false.
+//  Input :         Integer
+//  Output :        Boolean
+//
+/////////////////////////////////////////////////////////////////
 
-int checkPrime(int iNo)
+bool checkPrime(int iNo)
 {
-   int iCnt = 0;
-   bool bFlag = false;                   // change ithe kelay 
-  
-   if(iNo < 0)
-   {
-     iNo = -iNo;
-   }
-   
-  
-   for(iCnt = 2, bFlag = true ; iCnt <= (iNo/2) ; iCnt++)
-   {
-     if((iNo % iCnt ) == 0)
-     {
-          bFlag = false;
-          break;                        // Optimization
-     }
-   }
-   return bFlag;
+    int iCnt = 0;
+    bool bFlag = false;                 // Initial value (changed as per logic)
+
+    if(iNo < 0)
+    {
+        iNo = -iNo;                     // Updator for negative input
+    }
+
+    // Initialize iCnt and bFlag inside loop initialiser
+    for(iCnt = 2, bFlag = true; iCnt <= (iNo / 2); iCnt++)
+    {
+        if((iNo % iCnt) == 0)
+        {
+            bFlag = false;              // Factor found → not prime
+            break;                      // Optimization
+        }
+    }
+
+    return bFlag;
 }
-int main ()
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-     int iValue = 0;
-     bool bRet = 0 ;
+    int iValue = 0;
+    bool bRet = false;
 
-     printf("Enter the number : \n");
-     scanf("%d",&iValue);
+    printf("Enter the number : \n");
+    scanf("%d", &iValue);
 
-     bRet = checkPrime(iValue);
+    bRet = checkPrime(iValue);
 
-    if(bRet == true )
-      {
-        printf("%d is a prime number \n",iValue);
-      } 
+    if(bRet == true)
+    {
+        printf("%d is a prime number\n", iValue);
+    }
     else
-      {
-        printf("%d is a not prime number",iValue);
-      }
+    {
+        printf("%d is not a prime number\n", iValue);
+    }
 
     return 0;
+}   // End of main
 
-}
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 23
+//  Output : 23 is a prime number
+//
+//  Input : 28
+//  Output : 28 is not a prime number
+//
+//  Input : 5
+//  Output : 5 is a prime number
+//
+/////////////////////////////////////////////////////////////////
 
 /*
-    Time Complexity for Prime : N/2
-    Time Complexity for Non Prime : either 1 or 2 
+    Time Complexity:
+        Prime number     : O(N/2)
+        Non-prime number : O(1) or O(2)
 */
