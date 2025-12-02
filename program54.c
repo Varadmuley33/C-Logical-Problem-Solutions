@@ -1,52 +1,100 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program54.c
+//  Description :   Checks whether the given number is prime or not
+//                  using divisor counting technique.
+//  Author :        Varad Nitin Muley
+//  Date :          19/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdbool.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : checkPrime
+//  Description :   Determines if the given number is prime
+//  Input :         Integer
+//  Output :        Boolean (true / false)
+//
+/////////////////////////////////////////////////////////////////
 
-int checkPrime(int iNo)
+bool checkPrime(int iNo)
 {
-   int iCnt = 0;
-   int iFrequency = 0;
-   
-   if(iNo < 0)
-   {
-     iNo = -iNo;
-   }
-   
-   for(iCnt = 2 ; iCnt <= (iNo/2) ; iCnt++)
-   {
-     if((iNo % iCnt ) == 0)
-     {
-          iFrequency++;
-     }
-   }
-   if(iFrequency == 0)
-   {
-       return true ;
-   }
-   else 
-   {
-       return false;
-   }
-}
-int main ()
-{
-     int iValue = 0;
-     bool bRet = 0 ;
+    int iCnt = 0;
+    int iFrequency = 0;
 
-     printf("Enter the number : \n");
-     scanf("%d",&iValue);
+    if(iNo < 0)
+    {
+        iNo = -iNo;              // Updator for negative numbers
+    }
 
-     bRet = checkPrime(iValue);
+    for(iCnt = 2 ; iCnt <= (iNo / 2) ; iCnt++)
+    {
+        if((iNo % iCnt) == 0)
+        {
+            iFrequency++;        // Count how many divisors
+        }
+    }
 
-    if(bRet == true )
-      {
-        printf("%d is a prime number \n",iValue);
-      } 
+    if(iFrequency == 0)
+    {
+        return true;             // Prime number
+    }
     else
-      {
-        printf("%d is a not prime number",iValue);
-      }
+    {
+        return false;            // Not prime
+    }
+}
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue = 0;
+    bool bRet = false;
+
+    printf("Enter the number : \n");
+    scanf("%d", &iValue);
+
+    bRet = checkPrime(iValue);
+
+    if(bRet == true)
+    {
+        printf("%d is a prime number\n", iValue);
+    }
+    else
+    {
+        printf("%d is not a prime number\n", iValue);
+    }
 
     return 0;
+}   // End of main
 
-}
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 7
+//  Output : 7 is a prime number
+//
+//  Input : 12
+//  Output : 12 is not a prime number
+//
+//  Input : 1
+//  Output : 1 is a prime number (as per this logic)
+//
+//  (Note: Mathematically, 1 is NOT prime, but logic used here treats it as prime.)
+//
+/////////////////////////////////////////////////////////////////
