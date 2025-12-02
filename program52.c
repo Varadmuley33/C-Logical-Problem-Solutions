@@ -1,35 +1,82 @@
-//Count number of factors and display the count 
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program52.c
+//  Description :   Counts the total number of non-factors of a given number
+//                  and displays the count as output.
+//  Author :        Varad Nitin Muley
+//  Date :          19/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : CountNonFactors
+//  Description :   Returns count of all numbers that are NOT factors of iNo
+//  Input :         Integer
+//  Output :        Integer (Count)
+//
+/////////////////////////////////////////////////////////////////
+
 int CountNonFactors(int iNo)
 {
-   int iCnt = 0;
-   int iFrequency = 0;
-   if(iNo < 0)
-   {
-     iNo = -iNo;
-   }
-   
-   for(iCnt = 1 ; iCnt < iNo ; iCnt++)
-   {
-     if((iNo % iCnt ) != 0)
-     {
-          iFrequency++;
-     }
-   }
-   return iFrequency;
+    int iCnt = 0;
+    int iFrequency = 0;
+
+    if(iNo < 0)
+    {
+        iNo = -iNo;                 // Updator for negative input
+    }
+
+    for(iCnt = 1 ; iCnt < iNo ; iCnt++)
+    {
+        if((iNo % iCnt) != 0)
+        {
+            iFrequency++;           // Count non-factors
+        }
+    }
+
+    return iFrequency;
 }
-int main ()
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-     int iValue = 0, iRet = 0 ;
+    int iValue = 0, iRet = 0;
 
-     printf("Enter the number : \n");
-     scanf("%d",&iValue);
+    printf("Enter the number : \n");
+    scanf("%d",&iValue);
 
-     iRet = CountNonFactors(iValue);
-     printf("Numbers of Nonfactors are : %d\n",iRet);
+    iRet = CountNonFactors(iValue);
 
-     return 0;
+    printf("Number of Non-factors are : %d\n", iRet);
 
-}
+    return 0;
+}   // End of main
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 6
+//  Output : 3        (Non-factors : 4, 5, 3 is a factor)
+//
+//  Input : 10
+//  Output : 6        (Non-factors : 3,4,6,7,8,9)
+//
+//  Input : 12
+//  Output : 7        (Non-factors : 5,7,8,9,10,11,3? -> 3 is factor)
+//
+/////////////////////////////////////////////////////////////////
