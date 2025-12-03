@@ -1,53 +1,88 @@
-// code to demonstrate the need of iteration
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program64.c
+//  Description :   Demonstrates the need for iteration by manually extracting
+//                  each digit of a number (723614) using repeated modulo and
+//                  division operations.
+//  Author :        Varad Nitin Muley
+//  Date :          20/11/2025
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
-int main ()
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-     int iNo = 723614;
-     int iDigit = 0;
+    int iNo = 723614;                // Given number
+    int iDigit = 0;                  // To extract each digit
 
-     printf("-----------------------------------------------------\n");
+    printf("-----------------------------------------------------\n");
+    printf("Original value of iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("Original value of iNo is : %d\n",iNo );
+    // Extract last digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    // Extract next digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    // Extract next digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    // Extract next digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    // Extract next digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    // Extract next digit
+    iDigit = iNo % 10;
+    printf("iDigit is : %d\n", iDigit);
+    iNo = iNo / 10;
+    printf("iNo is : %d\n", iNo);
+    printf("-----------------------------------------------------\n");
 
-     printf("-----------------------------------------------------\n");
-     iDigit = iNo % 10;
-     printf(" iDigit is : %d\n",iDigit);
-     iNo = iNo / 10;
-     printf(" iNo is : %d\n",iNo);
+    return 0;
+}   // End of main
 
-     printf("-----------------------------------------------------\n");
-
-     return 0;
-
-}
+/////////////////////////////////////////////////////////////////
+//
+//  Note :
+//  This program manually repeats the same logic multiple times.
+//  It demonstrates *why loops are essential* in programming.
+//
+//  Without iteration → Code becomes long, repetitive, and error-prone.
+//
+/////////////////////////////////////////////////////////////////
