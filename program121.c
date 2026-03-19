@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     program111.c
+//  File name :     program122.c
 //  Description :   Print value of array using loop 
 //  Author :        Varad Nitin Muley
 //  Date :          13/11/2025
@@ -17,18 +17,23 @@
 /////////////////////////////////////////////////////////////////
 #include <stdio.h>
 
-int main ()
-{
 
+void Display(int Arr[])
+{
     int iCnt = 0 ;
 
-    int Arr[] = {10,20,30,40};
-
-    for (iCnt = 0 ; iCnt < 4 ; iCnt++)
+    for (iCnt = 0 ; iCnt < 7 ; iCnt++)
     {
-         printf("%d\n",Arr[iCnt]);
+        printf("%d\n",Arr[iCnt]);                  
     }
+}
 
+int main ()
+{
+    int Brr[] = {10,20,30,40};     
+ 
+    Display(Brr);
+    
 
     return 0;
 }// End of main

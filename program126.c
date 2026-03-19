@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     program120.c
+//  File name :     program126.c
 //  Description :   Print value of array using loop 
 //  Author :        Varad Nitin Muley
 //  Date :          13/11/2025
@@ -16,13 +16,14 @@
 //
 /////////////////////////////////////////////////////////////////
 #include <stdio.h>
+#include <stdlib.h>
 
 
-void Display(int Arr[])
+void Display(int Arr[],int iSize)
 {
     int iCnt = 0 ;
 
-    for (iCnt = 0 ; iCnt < 7 ; iCnt++)
+    for (iCnt = 0 ; iCnt < iSize ; iCnt++)
     {
         printf("%d\n",Arr[iCnt]);                  
     }
@@ -30,10 +31,30 @@ void Display(int Arr[])
 
 int main ()
 {
-    int Brr[] = {10,20,30,40,50,60,70};     
+    int iLength = 0 , iCnt = 0 ;
+    int *ptr = NULL;
 
-    Display(Brr);
+
+    printf("Enter number of elements : ");
+    scanf("%d",&iLength);
+
+    ptr = (int *)malloc(iLength * sizeof(int));
+    if(NULL == ptr)      //Industrial way of coding 
+    {
+        printf("Unable to allocate the memory\n");
+        return -1;
+    }
+
+    printf("Enter the elements : \n");
     
+    for(iCnt = 0 ; iCnt < iLength ; iCnt++)
+    {
+        scanf("%d",&ptr[iCnt]);
+    }
+
+    Display (ptr,iLength);
+
+    free(ptr);
 
     return 0;
 }// End of main

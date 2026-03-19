@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     program111.c
-//  Description :   Print value of array using loop 
+//  File name :     program109.c
+//  Description :   Demonstrate the size of array 
 //  Author :        Varad Nitin Muley
 //  Date :          13/11/2025
 //
@@ -20,14 +20,12 @@
 int main ()
 {
 
-    int iCnt = 0 ;
-
     int Arr[] = {10,20,30,40};
 
-    for (iCnt = 0 ; iCnt < 4 ; iCnt++)
-    {
-         printf("%d\n",Arr[iCnt]);
-    }
+    printf("%d\n", Arr);
+    printf("%d\n", &Arr);
+    printf("%d\n", &Arr[0]);
+    printf("%lu\n",sizeof(Arr));
 
 
     return 0;

@@ -1,9 +1,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     program111.c
-//  Description :   Print value of array using loop 
+//  File name :     program147.c
+//  Description :   
 //  Author :        Varad Nitin Muley
-//  Date :          13/11/2025
+//  Date :          14/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -15,20 +15,32 @@
 //  Required Header files
 //
 /////////////////////////////////////////////////////////////////
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+void Swap (int *p , int *q)
+{
+    int Temp = 0;
+
+    Temp = *p;
+    *p = *q;
+    *q = Temp;
+
+
+}
 
 int main ()
 {
+    
+    int iValue1 = 11;
+    int iValue2 = 21;
 
-    int iCnt = 0 ;
+    printf("Before swap %d %d\n",iValue1,iValue2);
 
-    int Arr[] = {10,20,30,40};
+    Swap(&iValue1,&iValue2);
 
-    for (iCnt = 0 ; iCnt < 4 ; iCnt++)
-    {
-         printf("%d\n",Arr[iCnt]);
-    }
+    printf("After swap %d %d\n",iValue1,iValue2);
 
 
-    return 0;
-}// End of main
+    return 0 ;
+
+}

@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     program111.c
-//  Description :   Print value of array using loop 
+//  File name :     program110.c
+//  Description :   Print value of array using sequence 
 //  Author :        Varad Nitin Muley
 //  Date :          13/11/2025
 //
@@ -20,14 +20,12 @@
 int main ()
 {
 
-    int iCnt = 0 ;
-
     int Arr[] = {10,20,30,40};
 
-    for (iCnt = 0 ; iCnt < 4 ; iCnt++)
-    {
-         printf("%d\n",Arr[iCnt]);
-    }
+    printf("%d\n",Arr[0]);
+    printf("%d\n",Arr[1]);
+    printf("%d\n",Arr[2]);
+    printf("%d\n",Arr[3]);
 
 
     return 0;
