@@ -1,20 +1,17 @@
-// OOP Apporach (Generic)
-#include<iostream>
-using namespace std ;
+#include<stdio.h>
 
 
 
 void Display()
 {
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");
 }
 
-int main ()
+int main()
 {
     Display();
     return 0;
-} 
-
+}
