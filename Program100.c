@@ -8,7 +8,7 @@ void Display(int Brr[], int length)
     {
         printf("%d\n", Brr[i]);
     }
-}
+}  
 
 void main(char *A[])
 {
