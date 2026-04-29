@@ -10,7 +10,7 @@ void Accept(int Arr[], int iSize)
     for(i = 0; i < iSize; i++)
     {
         scanf("%d",&Arr[i]);
-    }
+    } 
 }
 
 void Display(int Arr[], int iSize)
