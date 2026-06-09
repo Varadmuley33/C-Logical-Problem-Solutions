@@ -4,7 +4,7 @@
 int main ()
 {
     int fd = 0 ;
-    int iRet = 0 ;
+    int iRet = 0 ;   
     char FileName[20];
 
     printf("Enter the name of file that you want to open : ");
