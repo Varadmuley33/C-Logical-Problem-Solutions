@@ -12,7 +12,7 @@ void Display(int Brr[], int length)
 
 void main(char *A[])
 {
-    int iSize = 0;
+    int iSize = 0;    
 
     printf("Enter the size of array : \n");
     scanf("%d",&iSize);
