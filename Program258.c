@@ -1,3 +1,12 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program258.c
+//  Description :   Accepts source and destination strings from the user,
+//                  appends the source string to the end of the
+//                  destination string, and displays the updated string.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 
@@ -11,15 +20,7 @@ void strcatX(char *src , char *dest)
     {
         *dest = *src;
         src++;
-        dest++;////////////////////////////////////////////////////////////////////////////////////////////////
-//
-//  File name :     Program258.c
-//  Description :   Accepts source and destination strings from the user,
-//                  appends the source string to the end of the
-//                  destination string, and displays the updated string.
-//  Author :        Varad Nitin Muley
-//
-////////////////////////////////////////////////////////////////////////////////////////////////
+        dest++;
 
 /////////////////////////////////////////////////////////////////
 //
