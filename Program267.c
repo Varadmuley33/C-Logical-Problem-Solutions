@@ -1,6 +1,26 @@
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program267.c
+//  Description :   Finds and displays the maximum of three double values.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-double Maximum(double No1 ,double No2 ,double No3)
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Returns the maximum of three double values
+//
+/////////////////////////////////////////////////////////////////
+
+double Maximum(double No1, double No2, double No3)
 {
     if((No1 > No2) && (No1 > No3))
     {
@@ -16,12 +36,34 @@ double Maximum(double No1 ,double No2 ,double No3)
     }
 }
 
-int main ()
-{
-    double dValue1 = 20.0 , dValue2 = 11.0 ,dValue3 = 15.0,dRet = 0.0;
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
-    dRet = Maximum(dValue1,dValue2,dValue3);
-    printf("Maximum of three numbers is  : %lf\n",dRet);
+int main()
+{
+    double dValue1 = 20.0, dValue2 = 11.0, dValue3 = 15.0, dRet = 0.0;
+
+    dRet = Maximum(dValue1, dValue2, dValue3);
+
+    printf("Maximum of three numbers is : %lf\n", dRet);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : 20.0 11.0 15.0
+//  Output : 20.000000
+//
+//  Input : 12.5 25.7 18.3
+//  Output : 25.700000
+//
+//  Input : 8.4 6.2 14.9
+//  Output : 14.900000
+//
+/////////////////////////////////////////////////////////////////
