@@ -1,11 +1,32 @@
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program270.c
+//  Description :   Calculates and displays the summation of all
+//                  elements from a float array.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-float Summation (float Arr[] , int iSize)
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Returns the summation of all float array elements
+//
+/////////////////////////////////////////////////////////////////
+
+float Summation(float Arr[], int iSize)
 {
-    float iSum = 0;
+    float iSum = 0.0f;
     int iCnt = 0;
 
-    for(iCnt = 0 ; iCnt < iSize ; iCnt++)
+    for(iCnt = 0; iCnt < iSize; iCnt++)
     {
         iSum = iSum + Arr[iCnt];
     }
@@ -13,14 +34,35 @@ float Summation (float Arr[] , int iSize)
     return iSum;
 }
 
-int main ()
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-    float Brr[] = {10.1f ,20.2f , 30.3f , 40.4f , 50.5f };
+    float Brr[] = {10.1f, 20.2f, 30.3f, 40.4f, 50.5f};
     float fRet = 0.0f;
 
-    fRet = Summation(Brr , 5);
+    fRet = Summation(Brr, 5);
 
-    printf("Summation is :%f\n",fRet);
+    printf("Summation is : %f\n", fRet);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : {10.1, 20.2, 30.3, 40.4, 50.5}
+//  Output : 151.500000
+//
+//  Input : {5.5, 10.5, 15.5}
+//  Output : 31.500000
+//
+//  Input : {1.1, 2.2, 3.3, 4.4}
+//  Output : 11.000000
+//
+/////////////////////////////////////////////////////////////////
