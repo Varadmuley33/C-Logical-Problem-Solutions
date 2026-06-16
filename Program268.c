@@ -1,11 +1,32 @@
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program268.c
+//  Description :   Calculates and displays the summation of all
+//                  elements from an integer array.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-int Summation (int Arr[] , int iSize)
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Returns the summation of all array elements
+//
+/////////////////////////////////////////////////////////////////
+
+int Summation(int Arr[], int iSize)
 {
     int iSum = 0;
     int iCnt = 0;
 
-    for(iCnt = 0 ; iCnt < iSize ; iCnt++)
+    for(iCnt = 0; iCnt < iSize; iCnt++)
     {
         iSum = iSum + Arr[iCnt];
     }
@@ -13,14 +34,35 @@ int Summation (int Arr[] , int iSize)
     return iSum;
 }
 
-int main ()
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-    int Brr[] = {10 ,20 , 30 , 40 , 50 };
+    int Brr[] = {10, 20, 30, 40, 50};
     int iRet = 0;
 
-    iRet = Summation(Brr , 5);
+    iRet = Summation(Brr, 5);
 
-    printf("Summation is :%d\n",iRet);
+    printf("Summation is : %d\n", iRet);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : {10, 20, 30, 40, 50}
+//  Output : 150
+//
+//  Input : {5, 10, 15, 20}
+//  Output : 50
+//
+//  Input : {1, 2, 3, 4, 5}
+//  Output : 15
+//
+/////////////////////////////////////////////////////////////////
