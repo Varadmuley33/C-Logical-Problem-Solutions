@@ -1,15 +1,36 @@
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program273.c
+//  Description :   Finds and displays the largest element
+//                  from a float array.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-float Maximum (float Arr[] , int iSize)
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Returns the maximum element from the float array
+//
+/////////////////////////////////////////////////////////////////
+
+float Maximum(float Arr[], int iSize)
 {
     int iCnt = 0;
     float iMax;
 
     iMax = Arr[0];
 
-    for(iCnt = 0 ; iCnt < iSize ; iCnt++)
+    for(iCnt = 0; iCnt < iSize; iCnt++)
     {
-        if((iMax < Arr[iCnt]))
+        if(iMax < Arr[iCnt])
         {
             iMax = Arr[iCnt];
         }
@@ -18,14 +39,35 @@ float Maximum (float Arr[] , int iSize)
     return iMax;
 }
 
-int main ()
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-    float Brr[] = {10.1f ,20.2f , 30.3f , 40.4f , 50.5f };
+    float Brr[] = {10.1f, 20.2f, 30.3f, 40.4f, 50.5f};
     float fRet = 0.0f;
 
-    fRet = Maximum(Brr , 5);
+    fRet = Maximum(Brr, 5);
 
-    printf("Maximum is :%f\n",fRet);
+    printf("Maximum is : %f\n", fRet);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : {10.1, 20.2, 30.3, 40.4, 50.5}
+//  Output : 50.500000
+//
+//  Input : {5.5, 15.5, 10.5}
+//  Output : 15.500000
+//
+//  Input : {99.9, 45.5, 78.8, 12.3}
+//  Output : 99.900002
+//
+/////////////////////////////////////////////////////////////////
