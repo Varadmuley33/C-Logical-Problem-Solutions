@@ -1,30 +1,71 @@
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program275.c
+//  Description :   Counts and displays the frequency of a given
+//                  float value from an array.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
 
-int CountFrequency (float Arr[] , int iSize, float No)
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Returns the frequency of the specified float value
+//
+/////////////////////////////////////////////////////////////////
+
+int CountFrequency(float Arr[], int iSize, float No)
 {
     int iCnt = 0;
-    int iMax;
     int iCount = 0;
 
-    for(iCnt = 0 ; iCnt < iSize ; iCnt++)
+    for(iCnt = 0; iCnt < iSize; iCnt++)
     {
-        if(Arr[iCnt]  == No)
+        if(Arr[iCnt] == No)
         {
-           iCount++;
+            iCount++;
         }
     }
 
     return iCount;
 }
 
-int main ()
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
 {
-    float Brr[] = {10.1f ,20.2f , 30.3f , 40.4f , 50.5f,20.2f};
+    float Brr[] = {10.1f, 20.2f, 30.3f, 40.4f, 50.5f, 20.2f};
     int iRet = 0;
 
-    iRet = CountFrequency(Brr , 6 ,20.2f );
+    iRet = CountFrequency(Brr, 6, 20.2f);
 
-    printf("Frequency is :%d\n",iRet);
+    printf("Frequency is : %d\n", iRet);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : {10.1, 20.2, 30.3, 40.4, 50.5, 20.2}, No = 20.2
+//  Output : 2
+//
+//  Input : {5.5, 10.5, 5.5, 15.5}, No = 5.5
+//  Output : 2
+//
+//  Input : {1.1, 2.2, 3.3, 4.4}, No = 9.9
+//  Output : 0
+//
+/////////////////////////////////////////////////////////////////
