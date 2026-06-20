@@ -1,25 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program214.c
+//  Description :   Demonstrates traversal of a string using a pointer
+//                  and displays the first three characters.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description :   Displays the first three characters of the
+//                  given string using pointer arithmetic.
+//  Input :         Character Pointer
+//  Output :        Void
+//  Author :        Varad Nitin Muley
+//
+/////////////////////////////////////////////////////////////////
 
 void Display(char *str)
 {
-    printf("%c\n",*str);
+    printf("%c\n", *str);
     str++;
-    printf("%c\n",*str);
+
+    printf("%c\n", *str);
     str++;
-    printf("%c\n",*str);
-    
+
+    printf("%c\n", *str);
 }
 
-int main ()
-{
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
+int main()
+{
     char Arr[50] = {'\0'};
 
     printf("Enter string : \n");
-    scanf("%[^'\n]s",Arr);
+    scanf("%[^'\n]s", Arr);
 
     Display(Arr);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : Hello
+//  Output : H
+//           e
+//           l
+//
+//  Input : India
+//  Output : I
+//           n
+//           d
+//
+/////////////////////////////////////////////////////////////////
