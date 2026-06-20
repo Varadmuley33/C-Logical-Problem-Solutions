@@ -1,24 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File name :     Program215.c
+//  Description :   Displays all characters of the given string
+//                  one character per line using a pointer.
+//  Author :        Varad Nitin Muley
+//
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+//
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description :   Traverses the given string and displays
+//                  each character on a separate line.
+//  Input :         Character Pointer
+//  Output :        Void
+//  Author :        Varad Nitin Muley
+//
+/////////////////////////////////////////////////////////////////
 
 void Display(char *str)
 {
     while(*str != '\0')
     {
-        printf("%c\n",*str);
+        printf("%c\n", *str);
         str++;
     }
 }
 
-int main ()
-{
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
 
+int main()
+{
     char Arr[50] = {'\0'};
 
     printf("Enter string : \n");
-    scanf("%[^'\n]s",Arr);
+    scanf("%[^'\n]s", Arr);
 
     Display(Arr);
 
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases successfully handled by the application
+//
+//  Input : Hello
+//  Output : H
+//           e
+//           l
+//           l
+//           o
+//
+//  Input : India
+//  Output : I
+//           n
+//           d
+//           i
+//           a
+//
+/////////////////////////////////////////////////////////////////
