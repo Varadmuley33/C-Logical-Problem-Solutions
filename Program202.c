@@ -37,28 +37,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : N/A
-//  Output : fd1 : 3
-//           fd2 : 4
-//           fd3 : 5
-//
-//  Explanation :
-//  Three files are opened in read-only mode. The operating
-//  system allocates a unique file descriptor for each file.
-//  Typically, file descriptors start from 3 since 0, 1,
-//  and 2 are reserved for standard input, standard output,
-//  and standard error respectively.
-//
-//  Input : N/A
-//  Output : fd1 : -1
-//
-//  Explanation :
-//  If a file does not exist or cannot be opened,
-//  open() returns -1.
-//
-/////////////////////////////////////////////////////////////////
