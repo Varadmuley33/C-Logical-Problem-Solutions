@@ -51,27 +51,3 @@ int main ()
     return 0;
 }
 
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : Demo.txt
-//  File Content : India is my country
-//  Output : 7 bytes gets successfully read
-//           Data from file : India i
-//
-//  Explanation :
-//  The first 7 bytes are read from the file and
-//  stored in the Data array. Since the array is
-//  initialized with '\0', the data is displayed
-//  correctly as a string.
-//
-//  Input : Empty.txt
-//  Output : 0 bytes gets successfully read
-//           Data from file :
-//
-//  Explanation :
-//  If the file is empty, read() returns 0,
-//  indicating that no data was available to read.
-//
-/////////////////////////////////////////////////////////////////
