@@ -29,26 +29,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : N/A
-//  Output : Hello
-//
-//  Explanation :
-//  The string "Hello" is stored in the character
-//  array Arr. A null character is automatically
-//  appended at the end of the string and printf()
-//  displays the complete string.
-//
-//  Input : N/A
-//  Output : Hello
-//
-//  Explanation :
-//  The %s format specifier is used to print the
-//  contents of a string until the null character
-//  is encountered.
-//
-/////////////////////////////////////////////////////////////////
