@@ -54,28 +54,4 @@ int main ()
     return 0;
 }
 
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : Demo.txt
-//  File Content : India is my country
-//  Output : 7 bytes gets successfully read
-//           Data from file
-//           India i
-//
-//  Explanation :
-//  The first 7 bytes are read from the file and
-//  stored in the Data array. The write() system
-//  call displays exactly the number of bytes
-//  returned by read().
-//
-//  Input : Empty.txt
-//  Output : 0 bytes gets successfully read
-//           Data from file
-//
-//  Explanation :
-//  Since the file contains no data, read()
-//  returns 0 and write() displays nothing.
-//
-/////////////////////////////////////////////////////////////////
+
