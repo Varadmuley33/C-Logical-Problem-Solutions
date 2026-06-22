@@ -30,27 +30,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : N/A
-//  Output : HELLO
-//
-//  Explanation :
-//  The character array is initialized manually
-//  with individual characters followed by the
-//  null terminator '\0'. The %s format specifier
-//  prints the string until the null character
-//  is encountered.
-//
-//  Input : N/A
-//  Output : HELLO
-//
-//  Explanation :
-//  The null terminator marks the end of the
-//  string, allowing string functions and printf()
-//  to process the array correctly.
-//
-/////////////////////////////////////////////////////////////////
