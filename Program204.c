@@ -46,25 +46,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : Demo.txt
-//  Output : 5 bytes gets successfully read
-//
-//  Explanation :
-//  The file is opened successfully and the first
-//  5 bytes are read from the file into the Data array.
-//  The number of bytes read is returned by read().
-//
-//  Input : Sample.txt
-//  Output : Unable to open
-//
-//  Explanation :
-//  If the specified file does not exist or cannot
-//  be accessed, open() returns -1 and the program
-//  terminates.
-//
-/////////////////////////////////////////////////////////////////
