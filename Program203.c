@@ -46,24 +46,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : Demo.txt
-//  Output : 11 bytes gets successfully return
-//
-//  Explanation :
-//  The file is opened successfully and the first
-//  11 bytes from the string "India is my country"
-//  are written into the file.
-//
-//  Input : Sample.txt
-//  Output : Unable to open
-//
-//  Explanation :
-//  If the specified file cannot be opened,
-//  open() returns -1 and the program terminates.
-//
-/////////////////////////////////////////////////////////////////
