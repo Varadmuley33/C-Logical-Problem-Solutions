@@ -48,26 +48,3 @@ int main ()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : Demo.txt
-//  File Content : India is my country
-//  Output : 7 bytes gets successfully read
-//           Data from file : India i
-//
-//  Explanation :
-//  The first 7 bytes are read from the file and
-//  stored in the Data array. The data read from
-//  the file is then displayed on the screen.
-//
-//  Input : Sample.txt
-//  Output : Unable to open
-//
-//  Explanation :
-//  If the specified file cannot be opened,
-//  open() returns -1 and the program terminates.
-//
-/////////////////////////////////////////////////////////////////
