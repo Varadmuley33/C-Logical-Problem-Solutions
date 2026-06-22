@@ -34,26 +34,3 @@ int main()
 
     return 0;
 }
-
-/////////////////////////////////////////////////////////////////
-//
-//  Testcases successfully handled by the application
-//
-//  Input : N/A
-//  Output : HELLO
-//           6
-//           5
-//
-//  Explanation :
-//  sizeof(Arr) returns the total memory occupied by the array
-//  including the null character.
-//
-//  strlen(Arr) returns the length of the string excluding
-//  the null character.
-//
-//  Input : N/A
-//  Output : String = HELLO
-//           Size   = 6
-//           Length = 5
-//
-/////////////////////////////////////////////////////////////////
