@@ -10,7 +10,7 @@ void Display(int Brr[], int length)
     {
         printf("%d\n", Brr[i]);
     }
-}
+}    
 
 int CountEven(int Brr[], int length)
 {
