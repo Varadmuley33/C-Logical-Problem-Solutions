@@ -11,7 +11,7 @@ void Accept(int Arr[], int iSize)
     {
         scanf("%d",&Arr[i]);
     } 
-}
+}   
 
 void Display(int Arr[], int iSize)
 {
