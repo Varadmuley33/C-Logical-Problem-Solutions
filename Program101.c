@@ -5,7 +5,7 @@ void Display(int Brr[], int length)
 {
     int i = 0;
     printf("Elements of the array are : \n");
-
+   
     for(i = 0; i < length; i++)
     {
         printf("%d\n", Brr[i]);
