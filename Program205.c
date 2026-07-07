@@ -3,7 +3,7 @@
 //  File name :     Program205.c
 //  Description :   Accepts a file name from the user, reads
 //                  data from the file and displays it.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley                                       
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
