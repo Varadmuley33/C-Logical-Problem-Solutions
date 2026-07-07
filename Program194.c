@@ -2,7 +2,7 @@
 //
 //  File name :     Program194.c
 //  Description :   Accept number of rows and columns from the user and
-//                  display a lower triangular star pattern.
+//                  display a lower triangular star pattern.    
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
