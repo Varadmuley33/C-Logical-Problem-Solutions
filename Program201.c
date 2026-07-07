@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program201.c
-//  Description :   Accepts a file name from the user and opens
+//  Description :   Accepts a file name from the user and opens                    
 //                  the specified file in read and write mode.
 //  Author :        Varad Nitin Muley
 //
