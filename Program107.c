@@ -8,7 +8,7 @@ void Accept(int Arr[], int iSize)
     printf("Enter the elements of Array : \n");
 
     for(i = 0; i < iSize; i++)
-    {
+    {  
         scanf("%d",&Arr[i]);
     }
 }    
