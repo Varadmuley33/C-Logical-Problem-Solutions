@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void Accept(int Arr[], int iSize)
+void Accept(int Arr[], int iSize)  
 {
     int i = 0;
 
