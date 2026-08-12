@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program158.c
-//  Description :   Attempts to print numbers from -iNo to 0
+//  Description :   Attempts to print numbers from -iNo to 0  
 //  Author :        Varad Nitin Muley
 //  Date :          18/11/2025
 //  Input :         6 
