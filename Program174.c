@@ -2,7 +2,7 @@
 //
 //  File name :     program174.c
 //  Description :   
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley  
 //  Date :          18/11/2025
 //  Input :         5
 //  Output :        a b c d e
