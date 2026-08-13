@@ -3,7 +3,7 @@
 //  File name :     program178.c
 //  Description :   
 //  Author :        Varad Nitin Muley
-//  Date :          18/11/2025
+//  Date :          18/11/2025  
 //  Input :         8
 //  Output :        z y x w v u t s
 //                  Index : 1 2 3 4 5 6 7 8
