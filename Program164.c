@@ -4,7 +4,7 @@
 //  Description :   
 //  Author :        Varad Nitin Muley
 //  Date :          18/11/2025
-//  Input :         iRow = 3, iCol = 4
+//  Input :         iRow = 3, iCol = 4  
 //  Output :        * * * *
 //                  * * * *
 //                  * * * *
