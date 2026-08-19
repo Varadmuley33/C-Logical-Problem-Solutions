@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 void Accept(int Arr[], int iSize)
-{
+{   
     int i = 0;  
 
     printf("Enter the elements of Array : \n");
