@@ -8,7 +8,7 @@ void Display(int Brr[], int length)
     
     for(i = 0; i < length; i++)
     {
-        printf("%d\n", Brr[i]);
+        printf("%d\n", Brr[i]);  
     }
 }    
 
