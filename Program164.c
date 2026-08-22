@@ -2,7 +2,7 @@
 //
 //  File name :     program164.c
 //  Description :   
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley  
 //  Date :          18/11/2025
 //  Input :         iRow = 3, iCol = 4  
 //  Output :        * * * *
