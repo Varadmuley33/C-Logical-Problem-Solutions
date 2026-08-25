@@ -2,7 +2,7 @@
 //
 //  File name :     Program199.c
 //  Description :   Accept a file name from the user, create the file,
-//                  and display its file descriptor.
+//                  and display its file descriptor.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
