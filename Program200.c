@@ -3,7 +3,7 @@
 //  File name :     Program200.c
 //  Description :   Accept a file name from the user and open the file
 //                  in read and write mode.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
