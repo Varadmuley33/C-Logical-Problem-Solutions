@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     program190.c
-//  Description :   
+//  Description :      
 //  Author :        Varad Nitin Muley
 //  Date :          18/11/2025   
 //  Input :         6
