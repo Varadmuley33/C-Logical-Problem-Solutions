@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program202.c
-//  Description :   Demonstrates opening multiple files and
+//  Description :   Demonstrates opening multiple files and  
 //                  displays their file descriptor values.
 //  Author :        Varad Nitin Muley
 //
