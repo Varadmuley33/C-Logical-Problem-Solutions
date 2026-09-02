@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //                                             
 //  File name :     Program206.c
-//  Description :   Accepts a file name from the user, reads
+//  Description :   Accepts a file name from the user, reads  
 //                  seven bytes from the file and displays them.
 //  Author :        Varad Nitin Muley
 //
