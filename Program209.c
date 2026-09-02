@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program209.c
-//  Description :   Demonstrates string initialization using
+//  Description :   Demonstrates string initialization using  
 //                  double quotes and displays the string.
 //  Author :        Varad Nitin Muley
 //
