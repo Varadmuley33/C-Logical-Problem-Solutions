@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program203.c
-//  Description :   Accepts a file name from the user and writes
+//  Description :   Accepts a file name from the user and writes   
 //                  data into the specified file.
 //  Author :        Varad Nitin Muley
 //
