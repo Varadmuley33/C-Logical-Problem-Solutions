@@ -2,7 +2,7 @@
 //
 //  File name :     Program208.c
 //  Description :   Accepts a file name from the user, reads
-//                  data from the file and displays it using
+//                  data from the file and displays it using  
 //                  the write() system call.
 //  Author :        Varad Nitin Muley
 //
