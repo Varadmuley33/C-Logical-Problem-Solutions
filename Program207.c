@@ -2,7 +2,7 @@
 //
 //  File name :     Program207.c
 //  Description :   Accepts a file name from the user, reads
-//                  seven bytes from the file and displays them.
+//                  seven bytes from the file and displays them.   
 //                  The data buffer is initialized with null
 //                  characters to ensure proper string handling.
 //  Author :        Varad Nitin Muley
