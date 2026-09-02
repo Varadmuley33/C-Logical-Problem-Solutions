@@ -2,7 +2,7 @@
 //
 //  File name :     Program204.c                                            
 //  Description :   Accepts a file name from the user and reads
-//                  data from the specified file.
+//                  data from the specified file.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
