@@ -3,7 +3,7 @@
 //  File name :     Program218.c
 //  Description :   Counts the number of occurrences of character
 //                  'a' in the given string.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
