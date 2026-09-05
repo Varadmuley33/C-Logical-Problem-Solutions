@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program214.c
-//  Description :   Demonstrates traversal of a string using a pointer
+//  Description :   Demonstrates traversal of a string using a pointer   
 //                  and displays the first three characters.
 //  Author :        Varad Nitin Muley
 //
