@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program213.c
-//  Description :   Accepts a string including spaces from the user
+//  Description :   Accepts a string including spaces from the user  
 //                  and displays it on the screen.
 //  Author :        Varad Nitin Muley
 //
