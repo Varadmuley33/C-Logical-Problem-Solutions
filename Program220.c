@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program220.c
-//  Description :   Counts the number of occurrences of characters
+//  Description :   Counts the number of occurrences of characters   
 //                  'a' and 'A' in the given string.
 //  Author :        Varad Nitin Muley
 //
