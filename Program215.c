@@ -2,7 +2,7 @@
 //
 //  File name :     Program215.c
 //  Description :   Displays all characters of the given string
-//                  one character per line using a pointer.
+//                  one character per line using a pointer. 
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
