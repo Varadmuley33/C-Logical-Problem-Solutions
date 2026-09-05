@@ -2,7 +2,7 @@
 //
 //  File name :     Program216.c
 //  Description :   Displays all characters of the given string
-//                  one character per line using array notation.
+//                  one character per line using array notation.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
