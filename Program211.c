@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program211.c
-//  Description :   Demonstrates the difference between sizeof()
+//  Description :   Demonstrates the difference between sizeof() 
 //                  and strlen() for a character array.
 //  Author :        Varad Nitin Muley
 //
