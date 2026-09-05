@@ -2,7 +2,7 @@
 //
 //  File name :     Program212.c
 //  Description :   Accepts a string from the user and displays it
-//                  on the screen.
+//                  on the screen.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
