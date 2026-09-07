@@ -2,7 +2,7 @@
 //
 //  File name :     Program236.c
 //  Description :   Replaces all lowercase characters in the given
-//                  string with '_'.
+//                  string with '_'.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
