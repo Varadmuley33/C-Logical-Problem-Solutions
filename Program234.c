@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program234.c
-//  Description :   Counts the number of spaces present in the
+//  Description :   Counts the number of spaces present in the   
 //                  given string.
 //  Author :        Varad Nitin Muley
 //
