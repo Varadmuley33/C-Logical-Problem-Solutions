@@ -2,7 +2,7 @@
 //
 //  File name :     Program239.c
 //  Description :   Toggles the case of alphabetic characters in
-//                  the given string.
+//                  the given string.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
