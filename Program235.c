@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program235.c
-//  Description :   Replaces all occurrences of character 'a'
+//  Description :   Replaces all occurrences of character 'a'   
 //                  with '_' in the given string.
 //  Author :        Varad Nitin Muley
 //
