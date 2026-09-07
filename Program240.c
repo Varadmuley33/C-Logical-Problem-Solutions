@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program240.c
-//  Description :   Accepts a string from the user and displays it
+//  Description :   Accepts a string from the user and displays it   
 //                  as a greeting message.
 //  Author :        Varad Nitin Muley
 //
