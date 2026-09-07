@@ -2,7 +2,7 @@
 //
 //  File name :     CountDigits.c
 //  Description :   Counts the number of digits present in the
-//                  given string.
+//                  given string.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
