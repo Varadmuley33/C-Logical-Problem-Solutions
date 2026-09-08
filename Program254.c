@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program254.c
-//  Description :   Accepts a string from the user, replaces the first
+//  Description :   Accepts a string from the user, replaces the first   
 //                  character with an underscore, updates the original
 //                  string, and displays the modified string.
 //  Author :        Varad Nitin Muley
