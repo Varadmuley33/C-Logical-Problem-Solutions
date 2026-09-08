@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program224.c
-//  Description :   Counts the number of occurrences of a user-specified
+//  Description :   Counts the number of occurrences of a user-specified   
 //                  character in the given string.
 //  Author :        Varad Nitin Muley
 //
