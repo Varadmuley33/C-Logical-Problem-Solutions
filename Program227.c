@@ -2,7 +2,7 @@
 //
 //  File name :     Program227.c
 //  Description :   Counts the number of small (lowercase) alphabetic
-//                  characters present in the given string.
+//                  characters present in the given string.     
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
