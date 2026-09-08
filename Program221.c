@@ -2,7 +2,7 @@
 //
 //  File name :     Program221.c
 //  Description :   Counts the number of vowels present in the given string.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
