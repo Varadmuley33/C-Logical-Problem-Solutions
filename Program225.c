@@ -2,7 +2,7 @@
 //
 //  File name :     Program225.c
 //  Description :   Counts the number of occurrences of a user-specified
-//                  character in the given string.
+//                  character in the given string.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
