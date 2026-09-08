@@ -2,7 +2,7 @@
 //
 //  File name :     Program253.c
 //  Description :   Accepts a string from the user, replaces the first
-//                  character with an underscore, and displays the
+//                  character with an underscore, and displays the  
 //                  updated string.
 //  Author :        Varad Nitin Muley
 //
