@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program229.c
+//  File name :     Program229.c    
 //  Description :   Counts the number of capital (uppercase) alphabetic
 //                  characters present in the given string.
 //  Author :        Varad Nitin Muley
