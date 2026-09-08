@@ -2,7 +2,7 @@
 //
 //  File name :     Program251.c
 //  Description :   Accepts a string from the user and counts the
-//                  number of capital characters present in it.
+//                  number of capital characters present in it.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
