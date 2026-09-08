@@ -2,7 +2,7 @@
 //
 //  File name :     Program223.c
 //  Description :   Counts the number of occurrences of a specific
-//                  character in the given string.
+//                  character in the given string.    
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
