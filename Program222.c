@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program222.c
+//  File name :     Program222.c    
 //  Description :   Counts the number of vowels (both uppercase and
 //                  lowercase) present in the given string.
 //  Author :        Varad Nitin Muley
