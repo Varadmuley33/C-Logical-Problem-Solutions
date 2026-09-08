@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program230.c
-//  Description :   Counts the number of capital and small characters
+//  Description :   Counts the number of capital and small characters    
 //                  present in the given string.
 //  Author :        Varad Nitin Muley
 //
