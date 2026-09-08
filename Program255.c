@@ -2,7 +2,7 @@
 //
 //  File name :     Program255.c
 //  Description :   Accepts a string from the user, converts all
-//                  uppercase characters into lowercase characters,
+//                  uppercase characters into lowercase characters,   
 //                  and displays the updated string.
 //  Author :        Varad Nitin Muley
 //
