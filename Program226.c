@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program226.c
+//  File name :     Program226.c     
 //  Description :   Counts the number of occurrences of a user-specified
 //                  character in the given string using fflush(stdin)
 //                  before accepting character input.
