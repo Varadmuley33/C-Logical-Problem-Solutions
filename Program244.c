@@ -3,7 +3,7 @@
 //  File name :     Program244.c
 //  Description :   Accepts a string from the user and displays each
 //                  character of the string on a separate line using
-//                  a user-defined function.
+//                  a user-defined function.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
