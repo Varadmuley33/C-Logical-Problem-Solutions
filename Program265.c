@@ -2,7 +2,7 @@
 //
 //  File name :     Program265.c
 //  Description :   Finds and displays the maximum of two double values.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
