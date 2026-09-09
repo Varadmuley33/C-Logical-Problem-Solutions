@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program242.c
-//  Description :   Accepts a string from the user and displays the
+//  Description :   Accepts a string from the user and displays the   
 //                  first five characters of the entered string.
 //  Author :        Varad Nitin Muley
 //
