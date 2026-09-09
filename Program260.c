@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program260.c
-//  Description :   Accepts a string from the user, reverses the string
+//  Description :   Accepts a string from the user, reverses the string   
 //                  in place, and displays the updated string.
 //  Author :        Varad Nitin Muley
 //
