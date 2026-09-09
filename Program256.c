@@ -3,7 +3,7 @@
 //  File name :     Program256.c
 //  Description :   Accepts a string from the user and toggles the case
 //                  of each alphabetic character. Uppercase characters
-//                  are converted to lowercase and vice versa.
+//                  are converted to lowercase and vice versa.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
