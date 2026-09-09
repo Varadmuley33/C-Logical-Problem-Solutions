@@ -4,7 +4,7 @@
 //  Description :   Accepts a string from the user, copies it into a
 //                  local array inside a user-defined function, and
 //                  displays each character on a separate line.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley    
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
