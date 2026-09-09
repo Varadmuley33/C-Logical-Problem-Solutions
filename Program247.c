@@ -2,7 +2,7 @@
 //
 //  File name :     Program247.c
 //  Description :   Accepts a string from the user, copies it into
-//                  another string using strcpy(), and displays each
+//                  another string using strcpy(), and displays each  
 //                  character of the copied string on a separate line.
 //  Author :        Varad Nitin Muley
 //
