@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program268.c
-//  Description :   Calculates and displays the summation of all
+//  Description :   Calculates and displays the summation of all    
 //                  elements from an integer array.
 //  Author :        Varad Nitin Muley
 //
