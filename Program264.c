@@ -2,7 +2,7 @@
 //
 //  File name :     Program264.c
 //  Description :   Finds and displays the maximum of two numbers.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley  
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
