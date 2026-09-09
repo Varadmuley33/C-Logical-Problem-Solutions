@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program243.c
-//  Description :   Accepts a string from the user and displays each
+//  Description :   Accepts a string from the user and displays each  
 //                  character of the string on a separate line.
 //  Author :        Varad Nitin Muley
 //
