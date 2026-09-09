@@ -4,7 +4,7 @@
 //  Description :   Accepts source and destination strings from the user,
 //                  appends the source string to the end of the
 //                  destination string, and displays the updated string.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 #include<stdio.h>
