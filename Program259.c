@@ -2,7 +2,7 @@
 //
 //  File name :     Program259.c
 //  Description :   Accepts a string from the user and displays the
-//                  characters of the string in reverse order.
+//                  characters of the string in reverse order.    
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
