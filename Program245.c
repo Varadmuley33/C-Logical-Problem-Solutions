@@ -3,7 +3,7 @@
 //  File name :     Program245.c
 //  Description :   Accepts a string from the user, copies it into
 //                  another string, and displays the lengths of both
-//                  strings.
+//                  strings.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
