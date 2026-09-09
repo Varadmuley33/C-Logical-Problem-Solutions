@@ -3,7 +3,7 @@
 //  File name :     Program246.c
 //  Description :   Accepts a string from the user, copies it into
 //                  another string, and displays the first five
-//                  characters of the copied string.
+//                  characters of the copied string. 
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
