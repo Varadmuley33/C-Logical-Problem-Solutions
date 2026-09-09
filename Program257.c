@@ -3,7 +3,7 @@
 //  File name :     Program257.c
 //  Description :   Accepts a string from the user, copies the contents
 //                  of one string into another string, and displays the
-//                  copied string.
+//                  copied string.    
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
