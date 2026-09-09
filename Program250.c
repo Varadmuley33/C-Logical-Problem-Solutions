@@ -3,7 +3,7 @@
 //  File name :     Program250.c
 //  Description :   Accepts a string from the user and counts the
 //                  number of lowercase alphabet characters present
-//                  in the string.
+//                  in the string.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
