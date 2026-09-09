@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program270.c
-//  Description :   Calculates and displays the summation of all
+//  Description :   Calculates and displays the summation of all   
 //                  elements from a float array.
 //  Author :        Varad Nitin Muley
 //
