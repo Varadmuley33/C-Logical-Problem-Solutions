@@ -2,7 +2,7 @@
 //
 //  File name :     Program275.c
 //  Description :   Counts and displays the frequency of a given
-//                  float value from an array.
+//                  float value from an array.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
