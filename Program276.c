@@ -2,7 +2,7 @@
 //
 //  File name :     Program276.c
 //  Description :   Demonstrates the POP approach by performing
-//                  addition of two integers using a function.
+//                  addition of two integers using a function.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
