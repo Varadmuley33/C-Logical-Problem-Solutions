@@ -4,7 +4,7 @@
 //  Description :   Calculates and displays the summation of all
 //                  elements from a float array using the first element
 //                  as the initial value.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley  
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
