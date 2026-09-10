@@ -2,7 +2,7 @@
 //
 //  File name :     Program273.c
 //  Description :   Finds and displays the largest element
-//                  from a float array.
+//                  from a float array.  
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
