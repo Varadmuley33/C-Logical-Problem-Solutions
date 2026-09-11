@@ -2,7 +2,7 @@
 //
 //  File name :     Program289.c
 //  Description :   Demonstrate auto and static storage classes.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
