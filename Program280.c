@@ -2,7 +2,7 @@
 //
 //  File name :     Program280.c
 //  Description :   Demonstrates arithmetic operations on integer and
-//                  double data types using separate structures.
+//                  double data types using separate structures.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
