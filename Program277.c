@@ -3,7 +3,7 @@
 //  File name :     Program277.c
 //  Description :   Demonstrates arithmetic operations using a structure
 //                  and functions in the POP approach.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley    
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
