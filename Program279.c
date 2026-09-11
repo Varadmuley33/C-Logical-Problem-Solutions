@@ -2,7 +2,7 @@
 //
 //  File name :     Program279.c
 //  Description :   Performs addition and subtraction operations using
-//                  structure members and separate functions.
+//                  structure members and separate functions.   
 //  Author :        Varad Nitin Muley
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
