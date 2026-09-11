@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program278.c
-//  Description :   Demonstrates arithmetic operations on multiple
+//  Description :   Demonstrates arithmetic operations on multiple   
 //                  structure objects using the POP approach.
 //  Author :        Varad Nitin Muley
 //
