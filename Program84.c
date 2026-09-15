@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int CheckPerfect(int iNo)
-{
+{   
     int i = 0;
     int iSum = 0;
 
