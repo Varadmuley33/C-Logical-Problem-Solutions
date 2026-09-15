@@ -4,7 +4,7 @@ int CheckPerfect(int iNo)
 {
     int i = 0;
     int iSum = 0;
-
+   
     if(iNo < 0)
     {
         iNo = -iNo;
