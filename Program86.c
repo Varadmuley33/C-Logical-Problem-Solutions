@@ -3,7 +3,7 @@
 int CalculateFactorial(int iNo)
 {
     int i = 0;
-    int iFact = 1;
+    int iFact = 1;   
 
     for(i = 1; i <= iNo; i++)
     {
