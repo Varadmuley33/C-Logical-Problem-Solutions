@@ -3,7 +3,7 @@
 void DisplayDigits(int iNo)
 {
     int iDigit = 0;
-
+     
     while(iNo != 0)
     {
         iDigit = iNo % 10;
