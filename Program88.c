@@ -2,7 +2,7 @@
 
 long CalculateFactorial(int iNo)
 {
-    int i = 0;
+    int i = 0; 
     long iFact = 1;
 
     if(iNo < 0)
