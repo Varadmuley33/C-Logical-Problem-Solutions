@@ -6,7 +6,7 @@ long CalculateFactorial(int iNo)
     long iFact = 1;
 
     if(iNo < 0)
-    {
+    {   
         iNo = -iNo;
     }
 
