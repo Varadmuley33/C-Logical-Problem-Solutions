@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program37.c
+//  File name :     Program37.c    
 //  Description :   Displays numbers from 1 to user-entered frequency
 //                  using a for loop inside a function in C.
 //  Author :        Varad Nitin Muley
