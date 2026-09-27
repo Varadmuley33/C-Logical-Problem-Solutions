@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program39.c
-//  Description :   Displays numbers in reverse order from the user-
+//  Description :   Displays numbers in reverse order from the user-    
 //                  entered value down to 0 using a for loop.
 //  Author :        Varad Nitin Muley
 //  Date :          17/11/2025
