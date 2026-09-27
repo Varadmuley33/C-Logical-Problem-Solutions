@@ -2,7 +2,7 @@
 //
 //  File name :     Program38.c
 //  Description :   Displays numbers in reverse order starting from the
-//                  user-entered value down to 1 using a for loop.
+//                  user-entered value down to 1 using a for loop.    
 //  Author :        Varad Nitin Muley
 //  Date :          17/11/2025
 //
