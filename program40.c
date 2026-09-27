@@ -2,7 +2,7 @@
 //
 //  File name :     Program40.c
 //  Description :   Displays even numbers from 2 up to the user-entered
-//                  value using a step-by-2 for loop.
+//                  value using a step-by-2 for loop.   
 //  Author :        Varad Nitin Muley
 //  Date :          17/11/2025
 //
