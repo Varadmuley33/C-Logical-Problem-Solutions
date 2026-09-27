@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program34.c
-//  Description :   Displays numbers from 5 to 1 in reverse order using
+//  Description :   Displays numbers from 5 to 1 in reverse order using   
 //                  a simple function in C.
 //  Author :        Varad Nitin Muley
 //  Date :          17/11/2025
