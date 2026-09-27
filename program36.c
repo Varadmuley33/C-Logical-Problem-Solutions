@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program36.c
+//  File name :     Program36.c    
 //  Description :   Displays numbers from 1 to a user-defined limit using
 //                  a for loop inside a function in C.
 //  Author :        Varad Nitin Muley
