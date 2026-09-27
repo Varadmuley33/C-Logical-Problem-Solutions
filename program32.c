@@ -4,7 +4,7 @@
 //  Description :   Displays a sequence of numbers followed by '*' symbol
 //                  in a fixed pattern using a simple function.
 //  Author :        Varad Nitin Muley
-//  Date :          17/11/2025
+//  Date :          17/11/2025   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
