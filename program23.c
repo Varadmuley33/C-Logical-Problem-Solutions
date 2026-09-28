@@ -4,7 +4,7 @@
 //  Description :   Demonstrates how to reverse a user-entered integer
 //                  using a loop and modulo operation in C.
 //  Author :        Varad Nitin Muley
-//  Date :          17/10/2025
+//  Date :          17/10/2025   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
