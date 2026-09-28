@@ -2,7 +2,7 @@
 //
 //  File name :     program21.c
 //  Description :   Demonstrates best approach for modular programming by
-//                  defining a separate function and calling it through
+//                  defining a separate function and calling it through   
 //                  an object-like structure in C.
 //  Author :        Varad Nitin Muley
 //  Date :          17/10/2025
