@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  File name :     Program58.c
+//  File name :     Program58.c   
 //  Description :   Prime number checking using flag initialization
 //                  outside and updation before loop.
 //  Author :        Varad Nitin Muley
