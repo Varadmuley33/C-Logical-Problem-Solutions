@@ -2,7 +2,7 @@
 //
 //  File name :     Program52.c
 //  Description :   Counts the total number of non-factors of a given number
-//                  and displays the count as output.
+//                  and displays the count as output.   
 //  Author :        Varad Nitin Muley
 //  Date :          19/11/2025
 //
