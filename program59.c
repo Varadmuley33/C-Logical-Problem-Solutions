@@ -2,7 +2,7 @@
 //
 //  File name :     Program59.c
 //  Description :   Prime number checking by initializing the flag
-//                  inside the for loop initialiser section.
+//                  inside the for loop initialiser section.   
 //  Author :        Varad Nitin Muley
 //  Date :          19/11/2025
 //
