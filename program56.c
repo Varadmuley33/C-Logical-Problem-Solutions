@@ -3,7 +3,7 @@
 //  File name :     Program56.c
 //  Description :   Optimized prime-checking program using an alternate
 //                  approach where the loop index determines primality.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //  Date :          19/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
