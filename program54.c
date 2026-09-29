@@ -4,7 +4,7 @@
 //  Description :   Checks whether the given number is prime or not
 //                  using divisor counting technique.
 //  Author :        Varad Nitin Muley
-//  Date :          19/11/2025
+//  Date :          19/11/2025    
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
