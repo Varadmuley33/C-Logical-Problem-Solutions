@@ -2,7 +2,7 @@
 //
 //  File name :     Program51.c
 //  Description :   Extracts digits of a predefined number one by one
-//                  using modulus and division operations.
+//                  using modulus and division operations.   
 //  Author :        Varad Nitin Muley
 //  Date :          19/11/2025
 //
