@@ -3,7 +3,7 @@
 //  File name :     Program55.c
 //  Description :   Optimized prime-checking program using early break
 //                  to reduce unnecessary iterations.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //  Date :          19/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
