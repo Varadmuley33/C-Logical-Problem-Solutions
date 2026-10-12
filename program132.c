@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     program132.c
-//  Description :   Count even numbers 
+//  Description :   Count even numbers    
 //  Author :        Varad Nitin Muley
 //  Date :          13/11/2025
 //
