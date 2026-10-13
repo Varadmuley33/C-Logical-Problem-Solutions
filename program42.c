@@ -2,7 +2,7 @@
 //
 //  File name :     Program42.c
 //  Description :   Displays even numbers from 1 to the user-entered limit
-//                  using conditional checking inside a loop.
+//                  using conditional checking inside a loop.  
 //  Author :        Varad Nitin Muley
 //  Date :          17/11/2025
 //
