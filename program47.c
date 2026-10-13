@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  File name :     Program47.c
-//  Description :   Displays all factors of a user-entered number using
+//  Description :   Displays all factors of a user-entered number using   
 //                  an efficient loop-based approach.
 //  Author :        Varad Nitin Muley
 //  Date :          18/11/2025
