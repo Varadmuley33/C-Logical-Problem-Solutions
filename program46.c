@@ -3,7 +3,7 @@
 //  File name :     Program46.c
 //  Description :   Demonstrates the wrong approach to display factors of
 //                  a number by manually checking each possible divisor.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //  Date :          18/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
