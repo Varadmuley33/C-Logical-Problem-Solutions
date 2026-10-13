@@ -4,7 +4,7 @@
 //  Description :   Displays all factors of a user-entered number using an
 //                  optimized loop that runs only till iNo/2.
 //  Author :        Varad Nitin Muley
-//  Date :          18/11/2025
+//  Date :          18/11/2025   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
