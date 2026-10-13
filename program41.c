@@ -3,7 +3,7 @@
 //  File name :     Program41.c
 //  Description :   Displays numbers from 1 up to the user-entered value
 //                  using a simple for loop in C.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley  
 //  Date :          17/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
