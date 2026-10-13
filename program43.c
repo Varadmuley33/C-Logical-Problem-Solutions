@@ -4,7 +4,7 @@
 //  Description :   Checks whether the first number is completely divisible
 //                  by the second number using modulus operator.
 //  Author :        Varad Nitin Muley
-//  Date :          17/11/2025
+//  Date :          17/11/2025  
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
