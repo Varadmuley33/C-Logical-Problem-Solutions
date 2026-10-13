@@ -3,7 +3,7 @@
 //  File name :     Program49.c
 //  Description :   Accepts a number from the user and displays all its
 //                  non-factors using a loop. Handles negative input.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley     
 //  Date :          18/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
