@@ -4,7 +4,7 @@
 //  Description :   Accepts a number from the user (handles negative input)
 //                  and displays all its factors using a loop.
 //  Author :        Varad Nitin Muley
-//  Date :          18/11/2025
+//  Date :          18/11/2025   
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
