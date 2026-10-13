@@ -3,7 +3,7 @@
 //  File name :     Program44.c
 //  Description :   Checks whether the first number is completely divisible
 //                  by the second number using a user-defined function.
-//  Author :        Varad Nitin Muley
+//  Author :        Varad Nitin Muley   
 //  Date :          18/11/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
